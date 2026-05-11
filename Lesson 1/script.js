@@ -40,7 +40,12 @@ document.write(c + d)
 
 
 
-usr = prompt("Enter your Username!")
+// usr = prompt("Enter your Username!")
+// document.write(" Hello " + usr)
 
-document.write(" Hello " + usr)
+document.getElementById("box")
 
+var a = 1000;
+document.write("<br>")
+document.write("<br>")
+document.write(a)

@@ -1,0 +1,59 @@
+/* <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button id="clickme" onclick="fn()">Click Me</button>
+
+
+    <div id="output">0</div>
+</body>
+<script src="practice.js"></script>
+
+</html> */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border-style: none;
+    transition: 0.3s ease-in-out all;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.clickme{
+    background-color: #111;
+    color: white;
+    font-size: 30px;
+    border-radius: 24px;
+    padding: 18px 56px;
+}
+
+.clickme:hover{
+    background-color: #222;
+}
+
+.clickme:active{
+    background-color: #212121;
+}
+
+#output{
+    font-size: 50px;
+}

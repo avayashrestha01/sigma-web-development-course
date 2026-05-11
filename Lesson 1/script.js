@@ -24,6 +24,11 @@
 
 
 
+function dark() {
+    document.body.style.backgroundColor = black;
+    document.body.style.color = white;
+}
+
 
 document.write("<br></br>")
 document.write("Hello World")

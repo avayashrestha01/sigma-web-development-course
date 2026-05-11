@@ -30,9 +30,10 @@ document.write("Hello World")
 
 a = 1
 b = 2
-c = " The mumber is "
+d = a + b
+c = " The number is "
 document.write("<br></br>")
-document.write(c + a  + b)
+document.write(c + d)
 
 
 

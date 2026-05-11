@@ -22,7 +22,19 @@
 // document.body.style.backgroundColor = "red";
 
 
+document.write("<br></br>")
 document.write("Hello World")
+
+
+
+
+a = 1
+b = 2
+c = " The mumber is "
+document.write("<br></br>")
+document.write(c + a  + b)
+
+
 
 
 

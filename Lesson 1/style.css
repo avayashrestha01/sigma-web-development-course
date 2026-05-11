@@ -40,8 +40,8 @@ body, .container{
 
 .container{
     background-color: rgba(128, 128, 128, 0.37);
-    height: 50vh;
-    padding: 50px;
+    height: fit-content;
+    padding: 70px 50px;
     border-radius: 32px;
 }
 

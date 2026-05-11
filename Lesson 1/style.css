@@ -27,7 +27,7 @@
     transition: 0.3s ease-in-out all;
 }
 
-body{
+body, .container{
     background-color: black;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -36,6 +36,13 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
+}
+
+.container{
+    background-color: rgba(128, 128, 128, 0.37);
+    height: 50vh;
+    padding: 50px;
+    border-radius: 32px;
 }
 
 .clickme{

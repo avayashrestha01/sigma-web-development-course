@@ -20,3 +20,6 @@
 
 
 // document.body.style.backgroundColor = "red";
+
+
+document.write("Hello World")

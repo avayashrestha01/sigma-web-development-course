@@ -22,6 +22,9 @@
 // document.body.style.backgroundColor = "red";
 
 
+
+
+
 document.write("<br></br>")
 document.write("Hello World")
 
@@ -49,3 +52,8 @@ var a = 1000;
 document.write("<br>")
 document.write("<br>")
 document.write(a)
+
+
+// onclick.name("box"){
+//     document.body.style.backgroundColor = red;
+// }

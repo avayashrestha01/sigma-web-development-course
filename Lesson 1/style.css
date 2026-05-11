@@ -57,3 +57,7 @@ body{
 #output{
     font-size: 50px;
 }
+
+#clickme:active #output{
+    color: yellow;
+}

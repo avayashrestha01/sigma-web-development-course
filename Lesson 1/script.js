@@ -28,4 +28,6 @@ document.write("Hello World")
 
 
 usr = prompt("Enter your Username!")
-document.write("Hello " + usr)
+
+document.write(" Hello " + usr)
+

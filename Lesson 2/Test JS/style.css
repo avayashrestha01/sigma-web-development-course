@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border-style: none;
@@ -6,17 +6,17 @@
     text-decoration: none;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     display: none;
 }
 
-body{
+body {
     background-color: #111;
     color: #eee;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body header{
+body header {
     background-color: black;
     padding: 18px;
     display: flex;
@@ -30,48 +30,48 @@ body header{
     z-index: 10000;
 }
 
-body header nav > ul{
+body header nav>ul {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
 }
 
-body header nav > ul li{
+body header nav>ul li {
     list-style: none;
     font-size: 1.2rem;
     padding: 8px 24px;
     border-radius: 24px;
 }
 
-header nav ul li:hover{
+header nav ul li:hover {
     background-color: #5251516f;
     box-shadow: 0px 3px 10px #afacac;
     scale: 1.1;
 }
 
-header nav ul li:active{
+header nav ul li:active {
     background-color: rgba(6, 104, 111, 0.348);
     scale: 0.9;
 
 }
 
-body header nav > ul li a{
+body header nav>ul li a {
     color: #eff;
     text-decoration: none;
 }
 
-section{
+section {
     min-height: 80vh;
     margin: 20px;
     border-top: gray 2px solid;
 }
 
-section h1{
+section h1 {
     margin: 30px;
     font-size: 2.5rem;
 }
 
-section .container{
+section .container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -80,7 +80,7 @@ section .container{
 }
 
 
-section .img-container{
+section .img-container {
     /* padding: 10px; */
     border: 3px rgb(41, 40, 40) solid;
     border-radius: 50%;
@@ -89,20 +89,20 @@ section .img-container{
     position: relative;
 }
 
-section .img-container img{
+section .img-container img {
     height: 144px;
     width: 144px;
     border-radius: 50%;
     position: absolute;
 }
 
-span.det{
+span.det {
     color: white;
     font-size: 1.3rem;
 }
 
 
-span.dett::after{
+span.dett::after {
     content: '';
     font-size: 1.8rem;
     font-weight: 550;
@@ -110,29 +110,29 @@ span.dett::after{
     animation: name 20s linear infinite;
 }
 
-@keyframes name{
-    0%{
+@keyframes name {
+    0% {
         content: 'Avaya Shrestha!'
     }
 
-    33%{
+    33% {
         content: 'Frontend Developer!'
     }
 
-    66%{
+    66% {
         content: 'Student!';
     }
 
-    99%{
+    99% {
         content: 'Student!';
     }
 
-    100%{
+    100% {
         content: 'Avaya Shrestha';
     }
 }
 
-span.det::after{
+span.det::after {
     content: "";
     border-left: 2px solid rgb(0, 115, 255);
     transition: none;
@@ -140,25 +140,25 @@ span.det::after{
 }
 
 @keyframes blink {
-    0%{
+    0% {
         opacity: 0;
     }
 
-    20%{
+    20% {
         opacity: 0;
     }
 
-    80%{
+    80% {
         opacitiy: 1;
     }
 
 
-    100%{
+    100% {
         opactity: 0;
     }
 }
 
-#about .card-container{
+#about .card-container {
     display: flex;
     flex-wrap: wrap;
     min-height: 40vh;
@@ -166,7 +166,7 @@ span.det::after{
     justify-content: center;
 }
 
-.card{
+.card {
     background-color: rgba(80, 80, 80, 0.582);
     padding: 30px;
     border-radius: 24px;
@@ -180,26 +180,26 @@ span.det::after{
     cursor: pointer;
 }
 
-.card h2{
+.card h2 {
     color: rgb(0, 201, 60);
 }
 
-.card p{
+.card p {
     font-size: 20px;
     color: rgb(0, 255, 242);
 }
 
-.card:hover{
+.card:hover {
     scale: 1.1;
     transform: translateY(-10px);
     box-shadow: 0px 6px 15px rgb(179, 178, 178);
 }
 
-.card:active{
+.card:active {
     scale: 0.9;
 }
 
-.contact-cont{
+.contact-cont {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -209,7 +209,7 @@ span.det::after{
     gap: 20px;
 }
 
-input{
+input {
     background-color: #222;
     color: #ddd;
     padding: 8px 24px;
@@ -218,23 +218,23 @@ input{
     border: #000 2px solid;
 }
 
-input[type="button"]{
+input[type="button"] {
     background-color: rgb(0, 255, 0);
     color: black;
 }
 
-input[type="button"]:hover{
+input[type="button"]:hover {
     scale: 1.1;
     transform: translateY(-10px);
     box-shadow: lime 0px 3px 10px;
 }
 
-input[type="button"]:active{
+input[type="button"]:active {
     scale: 0.9;
 
 }
 
-footer{
+footer {
     background-color: rgba(128, 128, 128, 0.342);
     display: flex;
     flex-direction: column;
@@ -244,12 +244,32 @@ footer{
     width: 100%;
 }
 
-footer span{
+footer span {
     font-size: 1.6rem;
 }
 
-footer #num{
+footer #num {
     color: rgb(56, 225, 255);
     font-size: 1.8rem;
     font-weight: 550;
+}
+
+@media screen and (max-width: 500px) {
+    body header {
+        position: static;
+    }
+
+    body header nav>ul li {
+        padding: 8px 10px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    body header nav>ul{
+        flex-direction: column;
+    }
+
+    body header nav>ul li{
+        padding: 8px 20px;
+    }
 }

@@ -8,7 +8,3 @@ function num(){
 
     document.getElementById('num').innerText = a;
 }
-
-
-
-

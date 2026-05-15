@@ -21,3 +21,17 @@ body{
     color: white;
     font-family: sans-serif;
 }
+
+body main h1{
+    margin: 20px 5vw;
+}
+
+body main .main .output{
+    background-color: #ffffff;
+    min-height: 80vh;
+    min-width: 80vw;
+    max-width: 90vw;
+    justify-self: center;
+    align-self: center;
+}
+

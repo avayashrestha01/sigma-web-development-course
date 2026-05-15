@@ -37,8 +37,9 @@ console.log(typeof x, typeof y, typeof z, typeof c, typeof q, typeof r)
 let detail = {
     name: "Avaya Shrestha",
     age: 16,
-    education = "10 Completed",
-    DOB = "2010-11-12",
+    isintelligent: true,
 }
+
+detail.edu = "10 Completed";
 
 console.log(detail)

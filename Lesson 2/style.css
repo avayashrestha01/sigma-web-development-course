@@ -1,0 +1,23 @@
+/* <body>
+    <main>
+        <section id="main" class="main">
+            <h1>The Output Is</h1>
+            <output>
+                
+            </output>
+        </section>
+    </main>
+</body> */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    border-style: none;
+}
+
+body{
+    background-color: #000;
+    color: white;
+    font-family: ;
+}

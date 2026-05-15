@@ -55,8 +55,8 @@ console.log(detail)
 
 
 
-var now = 55;
-var ttl = 139;
-var day = 31 - 9;
+let now = 55;
+let ttl = 139;
+let day = 31 - 9;
 
 document.getElementById('output').innerText = (ttl - now)/day;

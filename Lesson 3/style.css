@@ -7,6 +7,18 @@
 body{
     background-color: #111;
     color: #eee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+header{
+    background-color: #00000026;
+    filter: blur(1);
+    z-index: 1000000;
+}
+
+header nav{
+    
 }
 
 header nav ul li a{
@@ -17,5 +29,5 @@ header nav ul li a{
 }
 
 header nav ul li a:hover{
-    color: gray;
+    color: rgb(184, 184, 184);
 }

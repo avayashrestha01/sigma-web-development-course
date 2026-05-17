@@ -12,20 +12,32 @@ body{
 }
 
 header{
-    background-color: #00000026;
+    /* background-color: #00000026; */
+    background-color: red;
     filter: blur(1);
     z-index: 1000000;
+    margin: 20px;
+    border-radius: 48px;
 }
 
 header nav{
-    
+    padding: 20px;
+}
+
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav ul li{
+    list-style: none;
+    padding: 8px 24px;
+    margin: 0 20px;
 }
 
 header nav ul li a{
     color: #eee;
     text-decoration: none;
-    padding: 8px 24px;
-    margin: 0 20px;
 }
 
 header nav ul li a:hover{

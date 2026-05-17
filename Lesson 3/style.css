@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     border-style: none;
+    transition: 0.2s ease-in-out all;
 }
 
 body{
@@ -12,16 +13,17 @@ body{
 }
 
 header{
-    /* background-color: #00000026; */
-    background-color: red;
+    background-color: #000000;
     filter: blur(1);
     z-index: 1000000;
     margin: 20px;
     border-radius: 48px;
+    display: flex;
 }
 
 header nav{
     padding: 20px;
+    margin: 0 auto;
 }
 
 header nav ul{
@@ -33,6 +35,15 @@ header nav ul li{
     list-style: none;
     padding: 8px 24px;
     margin: 0 20px;
+    border-radius: 24px;
+    background-color: black;
+    box-shadow: 0px 4px white;
+}
+
+header nav ul li:hover{
+    scale: 1.1;
+    /* box-shadow: 0 0;
+    transform: translateY(4px); */
 }
 
 header nav ul li a{

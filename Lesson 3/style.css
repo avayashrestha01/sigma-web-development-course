@@ -68,8 +68,8 @@ header nav ul li a{
     color: white;
     text-decoration: none;
 }
-#home,#about,#contact{
 
+#home,#about,#contact{
     min-height: 80vh;
     border-top: 2px solid rgb(255, 255, 255);
     display: flex;

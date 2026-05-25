@@ -17,6 +17,7 @@ for (const key in det){
     console.log(key + ' : ' + element)
 }
 
-for (const element of object) {
-    
+for (const char of "Avaya") {
+    console.log(char)
 }
+

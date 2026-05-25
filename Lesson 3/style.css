@@ -80,3 +80,20 @@ header nav ul li a{
 #home h1,#about h1,#contact h1{
     font-size: 100px;
 }
+
+footer{
+    background-color: #444;
+    min-height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.2em;
+}
+
+footer span#output{
+    color: cyan;
+    font-size: 1.4em;
+    font-family: sans-serif;
+}

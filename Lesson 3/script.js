@@ -8,4 +8,4 @@ function num(){
     inp++;
 
     document.getElementById('output').innerText = inp;
-}   8+   
+}  

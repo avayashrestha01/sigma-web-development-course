@@ -1,7 +1,9 @@
-a = 0;
+a = 1;
 
-function click(){
-    a ++;
+function click() {
+    a++;
 
-    document.getElementByID('output').innerText = a;
+    document.getElementById('output').innerText = a;
 }
+
+

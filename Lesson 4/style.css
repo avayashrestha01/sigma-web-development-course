@@ -6,6 +6,10 @@
     transition: all 0.3s ease-in-out;
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 body {
     font-family: sans-serif;
     background-color: #b6b5b5;

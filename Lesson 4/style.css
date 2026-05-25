@@ -54,4 +54,9 @@ pre{
         margin-top: 40px;
         border-radius: 0;
     }
+
+    #input:hover,#output:hover{
+        transform: none;
+        box-shadow: 8px 10px 15px rgb(104, 104, 104);
+    }
 }

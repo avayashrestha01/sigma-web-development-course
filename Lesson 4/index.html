@@ -12,7 +12,58 @@
     <div id="input">
         <h2>Input</h2>
         <pre id="ip">
+console.log('Loop Tutorial!')
 
+function line(){
+    let gap = 0;
+    
+    while (gap&lt;1){
+        console.log("")
+        gap++;
+    }
+}
+
+line()
+
+let a = 1;
+
+for (let i = 0; i &lt; 10; i++) {
+    console.log(a + i);
+}
+
+line()
+
+let det = {
+    name: "Avaya Shrestha",
+    role: "Student",
+    company: null
+}
+
+for (const key in det){
+    const element = det[key];
+    console.log(key + ' : ' + element)
+}
+
+line()
+
+for (const char of "Avaya") {
+    console.log(char)
+}
+
+line()
+
+let i = 6;
+
+while (i&lt;8) {
+    console.log(i++);
+}
+
+line()
+
+let d = 66;
+do {
+    console.log(d++);
+} while (d&lt;70);
         </pre>
     </div>
 
@@ -21,6 +72,36 @@
     <div id="output">
         <h2><Output>Output</Output></h2>
         <pre id="op">
+script.js:1 Loop Tutorial!
+script.js:7 
+script.js:17 1
+script.js:17 2
+script.js:17 3
+script.js:17 4
+script.js:17 5
+script.js:17 6
+script.js:17 7
+script.js:17 8
+script.js:17 9
+script.js:17 10
+script.js:7 
+script.js:30 name : Avaya Shrestha
+script.js:30 role : Student
+script.js:30 company : null
+script.js:7 
+script.js:36 A
+script.js:36 v
+script.js:36 a
+script.js:36 y
+script.js:36 a
+script.js:7 
+script.js:44 6
+script.js:44 7
+script.js:7 
+script.js:51 66
+script.js:51 67
+script.js:51 68
+script.js:51 69
 
         </pre>
     </div>

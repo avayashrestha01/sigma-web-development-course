@@ -43,3 +43,10 @@ let i = 6;
 while (i<8) {
     console.log(i++);
 }
+
+line()
+
+let d = 66;
+do {
+    console.log(d++);
+} while (d<70);

@@ -2,6 +2,6 @@ console.log('Loop Tutorial!')
 
 let a = 1;
 
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 1000000; i++) {
     console.log(a + i);
 }

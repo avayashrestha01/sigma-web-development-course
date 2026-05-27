@@ -1,13 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Lesson 5 | CWH</title>
 </head>
+
 <body>
-    
+    <h1>JavaScript Function</h1>
+
+    <div id="input">
+        <h2>Input</h2>
+        <pre>
+function nice(name) {
+    console.log("Hey " + name + " You are Nice!")
+    console.log("Hey " + name + " You are God!")
+    console.log("Hey " + name + " Your T-Shirt is Nice too!")
+}
+
+nice("Avaya")
+
+
+
+function sum(a, b, c = 10){
+    // console.log(a+b);
+    return a + b + c
+}
+
+
+result = sum(3, 5);
+result1 = sum(3, 6);
+result2 = sum(1233, 345);
+result3 = sum(333, 532);
+result4 = sum(3, 215);
+
+
+
+
+console.log("The sum of these number is: ", result);
+console.log("The sum of these number is: ", result1);
+console.log("The sum of these number is: ", result2);
+console.log("The sum of these number is: ", result3);
+console.log("The sum of these number is: ", result4);
+
+const dob = (x)=> {
+    console.log("Hey My DOB is", x)
+}
+
+dob("2010-11-12")
+
+
+        </pre>
+    </div>
+    <div id="output">
+        <h2>Output</h2>
+        <pre>
+script.js:2 Hey Avaya You are Nice!
+script.js:3 Hey Avaya You are God!
+script.js:4 Hey Avaya Your T-Shirt is Nice too!
+script.js:26 The sum of these number is:  18
+script.js:27 The sum of these number is:  19
+script.js:28 The sum of these number is:  1588
+script.js:29 The sum of these number is:  875
+script.js:30 The sum of these number is:  228
+script.js:33 Hey My DOB is 2010-11-12
+        </pre>
+    </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>

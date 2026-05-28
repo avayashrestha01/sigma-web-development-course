@@ -14,12 +14,169 @@
     <div id="input">
         <h2>Input</h2>
         <pre>
+let arr = [1, 2, 3, 4, 5, 6, 7];
+
+console.log(arr);
+console.log(arr.length);
+console.log(arr[0]);
+console.log(arr[2]);
+console.log(arr[4]);
+
+// arr[0] = 566; (Array are Changable and string are not)
+// console.log(arr); // output: [566, 2, 3, ..., 7]
+
+
+// let a = "Avaya"; (String are not changable)
+// a[0] = "b";
+// console.log(a); // output: Avaya
+
+
+console.log(typeof(arr));
+console.log(arr.toString());
+console.log(arr.join(" and "));
+
+// arr = arr.toString();
+// console.log(arr);
+
+
+a = [1, 2, 3, 4, 5, 6];
+
+console.log(a.pop());
+console.log(a.shift());
+
+a.push(7);
+console.log(a);
+a.push("Avaya");
+console.log(a);
+
+
+a.unshift("YO");
+console.log(a);
+// Shift is opposite of pop and unshift is opposite of push
+
+let a1 = [1, 2, 3];
+let a2 = [4, 5, 6];
+let a3 = [7, 8, 9];
+
+console.log(a1.concat(a2, a3)); // Dont change existing array
+
+a.splice(1, 3, 10, 20, 30); // remove 2nd to 4rd element and add other 10 20 and 30 element
+console.log(a);
+
+let num = [1, 2, 3, 4];
+console.log(num);
+
+console.log(num.slice(2));
+console.log(num.slice(1, 3));
+
+
+
+let looop = [1, 3, 1000, 2, 6, 7, 67, 4];
+
+
+// for (let index = 0; index < looop.length; index++) {
+//     const element = looop[index];
+//     console.log(element);
+// }
+
+
+// looop.forEach((value, index, arr)=>{
+//     console.log(value, index, arr);
+// })
+
+
+let asd = {
+    a: 1,
+    b: 2,
+    c: 3
+}
+
+for (const key in asd) {
+    if (!Object.hasOwn(asd, key)) continue;
+    
+    const element = asd[key];
+    console.log(key, element);
+}
+
+
+let dsa = [1, 2, 3, 4, 5];
+
+for (const elems of dsa) {
+    console.log(elems);
+}
+
+
+let mfr = [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024];
+
+// let newArr = [];
+
+// for (let index = 0; index < mfr.length; index++) {
+//     const ele = mfr[index];
+//     newArr.push(ele**2)
+// }
+
+// console.log(newArr)
+
+let newArr = mfr.map((e, index, array)=>{
+    return e**2;
+})
+console.log(newArr);
+
+
+
+const greaterThanSeven = (e)=>{
+    if(e>7 && e<1000){
+        return true;
+    }
+    
+    return false;
+}
+
+console.log(newArr.filter(greaterThanSeven));
+
+
+let arr2 = [1, 2, 3, 4, 5, 6];
+
+const red = (a, b)=>{
+    return a*b;
+}
+
+console.log(arr2.reduce(red));
 
         </pre>
     </div>
     <div id="output">
         <h2>Output</h2>
         <pre>
+script.js:3 (7) [1, 2, 3, 4, 5, 6, 7]
+script.js:4 7
+script.js:5 1
+script.js:6 3
+script.js:7 5
+script.js:18 object
+script.js:19 1,2,3,4,5,6,7
+script.js:20 1 and 2 and 3 and 4 and 5 and 6 and 7
+script.js:28 6
+script.js:29 1
+script.js:32 (5) [2, 3, 4, 5, 7]
+script.js:34 (6) [2, 3, 4, 5, 7, 'Avaya']
+script.js:38 (7) ['YO', 2, 3, 4, 5, 7, 'Avaya']
+script.js:45 (9) [1, 2, 3, 4, 5, 6, 7, 8, 9]
+script.js:48 (7) ['YO', 10, 20, 30, 5, 7, 'Avaya']
+script.js:51 (4) [1, 2, 3, 4]
+script.js:53 (2) [3, 4]
+script.js:54 (2) [2, 3]
+script.js:82 a 1
+script.js:82 b 2
+script.js:82 c 3
+script.js:89 1
+script.js:89 2
+script.js:89 3
+script.js:89 4
+script.js:89 5
+script.js:107 (11) [1, 4, 16, 64, 256, 1024, 4096, 16384, 65536, 262144, 1048576]
+script.js:119 (3) [16, 64, 256]
+script.js:128 720
 
         </pre>
     </div>

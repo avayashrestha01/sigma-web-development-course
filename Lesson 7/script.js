@@ -83,9 +83,53 @@ for (const key in asd) {
 }
 
 
-let dsa = [1, 2, 3, 4, 5]
+let dsa = [1, 2, 3, 4, 5];
 
 for (const elems of dsa) {
-    console.log(elems)
+    console.log(elems);
 }
+
+
+let mfr = [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024];
+
+// let newArr = [];
+
+// for (let index = 0; index < mfr.length; index++) {
+//     const ele = mfr[index];
+//     newArr.push(ele**2)
+// }
+
+// console.log(newArr)
+
+let newArr = mfr.map((e, index, array)=>{
+    return e**2;
+})
+console.log(newArr);
+
+
+
+const greaterThanSeven = (e)=>{
+    if(e>7 && e<1000){
+        return true;
+    }
+    
+    return false;
+}
+
+console.log(newArr.filter(greaterThanSeven));
+
+
+let arr2 = [1, 2, 3, 4, 5, 6];
+
+const red = (a, b)=>{
+    return a*b;
+}
+
+console.log(arr2.reduce(red));
+
+
+
+
+
+
 

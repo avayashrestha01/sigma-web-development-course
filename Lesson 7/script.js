@@ -1,25 +1,4 @@
-let name = "Avaya";
+let arr = [1, 2, 3, 4, 5, 6, 7];
 
-console.log(name);
-console.log(name[0]);
-console.log(name[1]);
-console.log(name[2]);
-console.log(name[3]);
-console.log(name[4]);
-
-
-console.log(name.length)
-
-let caste = "Shrestha";
-
-console.log("His name is", name + " " + caste);
-console.log(`His name is ${name} ${caste}`);
-
-console.log(name.toUpperCase());
-console.log(name.toLowerCase());
-console.log(name.length);
-console.log(name.slice(1, 4));
-console.log(name.replace("a", "aa"));
-console.log(name.concat(" ", caste, " is a legend"));
-
-console.log(name)
+console.log(arr);
+console.log(arr.length);

@@ -68,15 +68,24 @@ let looop = [1, 3, 1000, 2, 6, 7, 67, 4];
 //     console.log(value, index, arr);
 // })
 
-const objj = {
-    l = 1,
-    z = 2,
-    x = 3
+
+let asd = {
+    a: 1,
+    b: 2,
+    c: 3
+}
+
+for (const key in asd) {
+    if (!Object.hasOwn(asd, key)) continue;
+    
+    const element = asd[key];
+    console.log(key, element);
 }
 
 
+let dsa = [1, 2, 3, 4, 5]
 
-
-
-
+for (const elems of dsa) {
+    console.log(elems)
+}
 

@@ -44,9 +44,35 @@ let a3 = [7, 8, 9];
 
 console.log(a1.concat(a2, a3)); // Dont change existing array
 
+a.splice(1, 3, 10, 20, 30); // remove 2nd to 4rd element and add other 10 20 and 30 element
+console.log(a);
+
+let num = [1, 2, 3, 4];
+console.log(num);
+
+console.log(num.slice(2));
+console.log(num.slice(1, 3));
 
 
 
+let looop = [1, 3, 1000, 2, 6, 7, 67, 4];
+
+
+// for (let index = 0; index < looop.length; index++) {
+//     const element = looop[index];
+//     console.log(element);
+// }
+
+
+// looop.forEach((value, index, arr)=>{
+//     console.log(value, index, arr);
+// })
+
+const objj = {
+    l = 1,
+    z = 2,
+    x = 3
+}
 
 
 

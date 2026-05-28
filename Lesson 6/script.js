@@ -15,3 +15,8 @@ let caste = "Shrestha";
 console.log("His name is", name + " " + caste);
 console.log(`His name is ${name} ${caste}`);
 
+console.log(name.toUpperCase());
+console.log(name.toLowerCase());
+console.log(name.length)
+
+

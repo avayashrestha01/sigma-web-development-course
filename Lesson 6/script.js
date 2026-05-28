@@ -17,6 +17,9 @@ console.log(`His name is ${name} ${caste}`);
 
 console.log(name.toUpperCase());
 console.log(name.toLowerCase());
-console.log(name.length)
+console.log(name.length);
+console.log(name.slice(1, 4));
+console.log(name.replace("a", "aa"));
+console.log(name.concat(" ", caste, " is a legend"));
 
-
+console.log(name)

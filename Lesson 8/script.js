@@ -1,19 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Lesson 7 | CWH</title>
-</head>
-
-<body>
-    <h1>JavaScript Array</h1>
-
-    <div id="input">
-        <h2>Input</h2>
-        <pre>
 let arr = [1, 2, 3, 4, 5, 6, 7];
 
 console.log(arr);
@@ -143,45 +127,9 @@ const red = (a, b)=>{
 
 console.log(arr2.reduce(red));
 
-        </pre>
-    </div>
-    <div id="output">
-        <h2>Output</h2>
-        <pre>
-script.js:3 (7) [1, 2, 3, 4, 5, 6, 7]
-script.js:4 7
-script.js:5 1
-script.js:6 3
-script.js:7 5
-script.js:18 object
-script.js:19 1,2,3,4,5,6,7
-script.js:20 1 and 2 and 3 and 4 and 5 and 6 and 7
-script.js:28 6
-script.js:29 1
-script.js:32 (5) [2, 3, 4, 5, 7]
-script.js:34 (6) [2, 3, 4, 5, 7, 'Avaya']
-script.js:38 (7) ['YO', 2, 3, 4, 5, 7, 'Avaya']
-script.js:45 (9) [1, 2, 3, 4, 5, 6, 7, 8, 9]
-script.js:48 (7) ['YO', 10, 20, 30, 5, 7, 'Avaya']
-script.js:51 (4) [1, 2, 3, 4]
-script.js:53 (2) [3, 4]
-script.js:54 (2) [2, 3]
-script.js:82 a 1
-script.js:82 b 2
-script.js:82 c 3
-script.js:89 1
-script.js:89 2
-script.js:89 3
-script.js:89 4
-script.js:89 5
-script.js:107 (11) [1, 4, 16, 64, 256, 1024, 4096, 16384, 65536, 262144, 1048576]
-script.js:119 (3) [16, 64, 256]
-script.js:128 720
 
-        </pre>
-    </div>
 
-    <script src="script.js"></script>
-</body>
 
-</html>
+
+
+

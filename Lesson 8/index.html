@@ -4,10 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Lesson 8 | CWH</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="stuff">
+            Hey, I am inside container
+        </div>
+    </div>
+    <input type="color" name="color" id="color">
+    <input type="submit" value="submit" onclick="bagColor()">
+
+    <script>
+        document.title = "JavaScript DOM!";
+        console.log(document.title);
+        console.log(document.body);
+        
+        function bagColor(){
+            let selectedColor = document.getElementById('color').value;
+            document.body.style.backgroundColor = selectedColor; 
+        }
+
+        console.log(window)
+    </script>
 </body>
 </html>
